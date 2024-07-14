@@ -1,0 +1,83 @@
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.auth {
+    font-family: "Roboto Regular";
+    width: 1280px;
+    height: 395px;
+    border: 1px solid var(--color-gray-black);
+    border-radius: 8px;
+    background-color: var(--color-header);
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-aut-user {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-aut-user input{
+    margin-top: 10px;
+    border: 1px solid var(--color-gray-black);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.auth-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.auth-button-container button {
+    display: flex;
+    margin-top: 20px;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.google-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.auth-button-container button:hover {
+    transform: scale(1.1);
+}
+
+.profile-button-container button {
+    margin-left: 10px;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.profile-button-container button:hover {
+    transform: scale(1.1);
+}
+
+.profile-button-logout button {
+    margin-top: 20px;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.profile-button-logout button:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,135 @@
+.catalog-container {
+    margin: 40px auto;
+}
+
+.catalog-view {
+    font-family: "Roboto Regular";
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    left: 50%;
+    padding: 20px 0;
+}
+
+.filters {
+    position: sticky;
+    top: 20px;
+    width: 200px;
+    height: 715px;
+    margin-right: 20px; /* Отступ справа */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto Regular";
+}
+
+.filters h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.filter-group {
+    margin-bottom: 20px;
+}
+
+.filter-group h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.filter-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.filter-group label {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+.filter-group select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+.filter-group select:focus {
+    outline: none;
+    border-color: #6200ea;
+}
+
+.filter-group div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 220px);
+}
+
+.products-container.grid ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.products-container.grid {
+    width: calc(333.333% - 20px);
+}
+
+.products-container.list ul {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.products-container.list li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.products-container.list .product-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.product-card-image-container {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.product-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.product-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}

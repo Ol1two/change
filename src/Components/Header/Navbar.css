@@ -1,0 +1,103 @@
+.main-header {
+    border-bottom: 1.4px solid gray;
+    background-color: var(--color-header);
+}
+
+.custom-navbar {
+    display: flex;
+    padding: 1rem;
+    height: 80px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.navbar-container a { /* Логотип*/
+    display: flex;
+    align-items: center;
+    padding: 0 1rem; /* Отступы по бокам */
+    text-decoration: none;
+}
+
+.navbar-brand {
+    display: flex;
+    font-family: "Disko Mono";
+    background: linear-gradient(45deg, #260DC1 33%, #59006F 66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.10); /* Увеличение при наведении */
+}
+
+.navbar-menu {
+    font-family: "Roboto Light";
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Расстояние между элементами меню */
+    flex-flow: row;
+    justify-content: center;
+}
+
+.navbar-menu a {
+    color: var(--color-gray-black);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-menu a:hover {
+    transform: scale(1.10); /* Увеличение при наведении */
+    /*background-color: rgba(190, 22, 134, 0.1);*/
+}
+
+.menu-link {
+    padding-left: 1rem;
+}
+
+input {
+    padding-left: 30px;
+}
+
+.input-search {
+    width: 754px;
+    border: none;
+    background: transparent;
+    border-radius: 8px;
+    background: url("icon search.svg") no-repeat 5px;
+}
+
+.wrapper {
+    margin-top: 6px;
+    border-radius: 8px;
+    background-color: var(--color-gray-black);
+    opacity: 0.5;
+    width: 754px;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
