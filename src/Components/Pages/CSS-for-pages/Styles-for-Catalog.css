@@ -1,9 +1,9 @@
 .catalog-container {
     margin: 40px auto;
+    font-family: "Roboto Regular";
 }
 
 .catalog-view {
-    font-family: "Roboto Regular";
     width: 1280px;
     display: flex;
     justify-content: space-between;
@@ -21,7 +21,6 @@
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: "Roboto Regular";
 }
 
 .filters h3 {

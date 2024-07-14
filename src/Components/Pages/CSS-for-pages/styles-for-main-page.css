@@ -1,4 +1,5 @@
 .main-page {
+    font-family: "Roboto Regular";
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -27,25 +28,21 @@
 }
 
 .first-slide h3 {
-    font-family: "Roboto Regular";
     font-size: 40px;
 }
 
 .first-slide p {
-    font-family: "Roboto Regular";
     font-size: 32px;
     padding-right: 85px;
     color: var(--color-yellow);
 }
 
 .second-slide h3 {
-    font-family: "Roboto Regular";
     font-size: 40px;
     color: var(--color-yellow);
 }
 
 .second-slide ul {
-    font-family: "Roboto Regular";
     font-size: 22px;
     display: flex;
     flex-wrap: wrap;
@@ -61,15 +58,14 @@
 }
 
 .content-catalog {
-    margin-top: 20px; /* Отступ сверху для визуального разделения */
-    font-family: "Roboto Regular";
+    margin-top: 20px;
     width: 1280px;
 }
 
 .content-catalog-product {
-    display: flex; /* Горизонтальное размещение ссылок */
+    display: flex;
     justify-content: center;
-    margin-top: 20px; /* Отступ сверху для визуального разделения */
+    margin-top: 20px;
 }
 
 .content-catalog-product a {
